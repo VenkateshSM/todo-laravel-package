@@ -1,0 +1,20 @@
+{
+    "name": "venkateshsm/todo",
+    "description": "A Simple Todo App.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Venkatesh SM",
+            "email": "suriyaa.sai@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "venkateshsm\\Todo\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate\support" : "~5"
+    }
+}
